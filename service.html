@@ -25,9 +25,35 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .whatsapp_float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            left: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+        .whatsapp_float .whatsapp-icon {
+            margin-top: 16px;
+        }
+    </style>
 </head>
 
+
 <body>
+    <!-- Whatsapp --> 
+<a href="https://wa.me/8157011609" class="whatsapp_float" target="_blank">
+    <i class="fab fa-whatsapp whatsapp-icon"></i>
+</a>
+<!-- Whatsapp -->
+
     <!-- Header Start -->
     <div class="container-fluid">
         <div class="row align-items-center">
