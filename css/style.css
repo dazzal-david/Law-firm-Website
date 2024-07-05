@@ -152,10 +152,11 @@ sup {
 }
 
 a {
-  color: #B49C73;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
+
 
 a:hover {
   color: #8e764c;
@@ -478,6 +479,7 @@ hr {
 
 small,
 .small {
+  color: black;
   font-size: 80%;
   font-weight: 400;
 }
@@ -2670,6 +2672,12 @@ fieldset:disabled a.btn {
   color: #B49C73;
   border-color: #B49C73;
 }
+
+.btn-outline-header {
+  color: black;
+  border-color: black;
+}
+
 
 .btn-outline-primary:hover {
   color: #212529;
@@ -6435,8 +6443,16 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
+.bg-black {
+  background-color: black !important;
+}
+
 .bg-white {
-  background-color: #fff !important;
+  background-color: white !important;
+}
+
+.bg-gold {
+  background-color: goldenrod;
 }
 
 .bg-transparent {
@@ -9529,6 +9545,10 @@ button.bg-dark:focus {
   color: #B49C73 !important;
 }
 
+.text-header {
+  color: black !important;
+}
+
 a.text-primary:hover, a.text-primary:focus {
   color: #8e764c !important;
 }
@@ -9779,7 +9799,7 @@ h4, h5, h6 {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #B49C73;
+  color: white;
 }
 
 @media (max-width: 991.98px) {
