@@ -9764,7 +9764,7 @@ h4, h5, h6 {
   position: fixed;
   display: none;
   right: 15px;
-  bottom: 15px;
+  bottom: 40px;
   z-index: 11;
 }
 
@@ -9804,8 +9804,9 @@ h4, h5, h6 {
 }
 
 .bg-page-header {
-  background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(../img/carousel-3.jpg), no-repeat center center;
+  background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(../img/carousel-4.jpg), no-repeat center center;
   background-size: cover;
+  height: 70vh;
 }
 
 .bg-appointment {
@@ -9817,6 +9818,7 @@ h4, h5, h6 {
   background: linear-gradient(rgba(55, 55, 63, 0.7), rgba(55, 55, 63, 0.7)), url(../img/carousel-3.jpg), no-repeat center center;
   background-size: cover;
 }
+
 
 .owl-carousel .owl-nav {
   position: absolute;
@@ -9910,3 +9912,18 @@ h4, h5, h6 {
   padding: 0;
   list-style-type: none;
 }
+
+/* Default style for the carousel image */
+.carousel-item img {
+  object-fit: cover;
+  left: 0; /* Ensure the image is centered by default */
+}
+
+/* Adjust the image position on small screens */
+@media (max-width: 576px) {
+  .carousel-item.position-relative.active img {
+    object-position: 80% center; /* Move the image 80% to the right */
+  }
+}
+
+
